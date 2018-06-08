@@ -1,10 +1,10 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = "feedparser"
-version = "0.71-2"
+version = "0.71-3"
 -- LuaDist source
 source = {
-  tag = "0.71-2",
+  tag = "0.71-3",
   url = "git://github.com/LuaDist-testing/feedparser.git"
 }
 -- Original source
@@ -22,7 +22,8 @@ but less good.]],
    license = "BSD"
 }
 dependencies = {
-   "lua >= 5.1, < 5.4"
+   "lua >= 5.1, < 5.4",
+   "luaexpat"
 }
 build = {
    type = "builtin",
